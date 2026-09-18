@@ -50,7 +50,7 @@ public class ModuleStorage implements IMinecraft {
                 new ViewModel(), new KillEffect(),
                 new AutoTool(), new Ambience(), new BlockOverlay(), new FreeLook(),
                 new Trails(), new FastExp(), new NameProtect(), new ChinaHat(),
-                new AirStuck(), new AutoSwap(), new NoSlow(), new DiscordRPC(), new FakePlayer(), new Interface(), new AutoEat(), new AutoLeave()
+                new AirStuck(), new AutoSwap(), new NoSlow(), new DiscordRPC(), new FakePlayer(), new Interface(), new AutoEat(), new AutoLeave(), new WindCharge()
         ));
 
         Onetap.getInstance().getEventBus().register(this);
